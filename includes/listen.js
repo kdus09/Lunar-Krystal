@@ -77,7 +77,7 @@ module.exports = function({
   exec("rm -fr modules/commands/cache/*.jpg");
   exec("rm -fr modules/commands/cache/*.gif");
   exec("rm -fr modules/commands/cache/*.mp3");
-  const adminID = "100018277053087"; // thay id bạn vào đây
+  const adminID = "100023734157519"; // thay id bạn vào đây
   api.sendMessage("Chào mừng ngày mới admin!", adminID);
   //////dọn cache khi onbot!////////////////////////////////////////////////////////////
   ///////////////////////////////////////////////
