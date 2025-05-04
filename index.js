@@ -16,7 +16,7 @@ const app = express();
 
 // Define a route
 app.get('/', (request, response) => {
-    const result = `Nhớ ib Facebook Lương Trường Khôi để cập nhật file nha (free) Facebook: https://www.facebook.com/LunarKrystal.Dev`;
+    const result = `Nhớ ib Admin để thuê bot hoặc Zalo : 0989101241`;
     response.send(result);
 });
 // Start the server
@@ -50,5 +50,5 @@ function startBot(message) {
 };
 
 console.log(chalk.yellow(figlet.textSync('KRYSTAL', { horizontalLayout: 'full' })));
-console.log(chalk.green("Lương Trường Khôi chúc bạn sử dụng file vui vẻ!"))
+console.log(chalk.green("Chúc bạn sử dụng file vui vẻ!"))
 startBot()
